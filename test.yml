@@ -28,7 +28,7 @@ pipelines:
       - name: step2
         type: bash
         configuration:
-          affinityGroup: test_group
+          affinityGroup: group2
         setup:
           runtime:
             type: image
@@ -53,7 +53,7 @@ pipelines:
       - name: step3
         type: bash
         configuration:
-          affinityGroup: test_group
+          affinityGroup: group2
         setup:
           runtime:
             type: image
