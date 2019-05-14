@@ -21,7 +21,7 @@ pipelines:
               options: test
         requires:
           integrations:
-            - docker_chaitanya
+            - docker_kirti
         execution:
           onExecute:
             - echo "executing..."
@@ -43,7 +43,7 @@ pipelines:
               options: test
         requires:
           integrations:
-            - docker_chaitanya
+            - docker_kirti
         execution:
           onExecute:
             - echo "executing..."
@@ -68,7 +68,7 @@ pipelines:
               options: test
         requires:
           integrations:
-            - docker_chaitanya
+            - docker_kirti
         execution:
           onExecute:
             - echo "executing..."
@@ -93,7 +93,7 @@ pipelines:
               options: test
         requires:
           integrations:
-            - docker_chaitanya
+            - docker_kirti
         execution:
           onExecute:
             - echo "executing..."
@@ -118,7 +118,7 @@ pipelines:
               options: test
         requires:
           integrations:
-            - docker_chaitanya
+            - docker_kirti
         execution:
           onExecute:
             - echo "executing..."
