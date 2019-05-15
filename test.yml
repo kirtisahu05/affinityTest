@@ -125,28 +125,3 @@ pipelines:
         triggeredBy:
           steps:
             - step2
-       - name: step6
-        type: bash
-        configuration:
-          affinityGroup: group2
-        setup:
-          runtime:
-            type: image
-            image:
-              auto:
-                language: java
-                versions:
-                  - 1
-            custom:
-              name: test
-              tag:  test
-              options: test
-        requires:
-          integrations:
-            - docker_kirti
-        execution:
-          onExecute:
-            - echo "executing..."
-        triggeredBy:
-          steps:
-            - step5
