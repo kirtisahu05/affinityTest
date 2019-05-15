@@ -24,7 +24,7 @@ pipelines:
             - docker_kirti
         execution:
           onExecute:
-            - echo "executing..."
+            - echo "executing...it"
       - name: step2
         type: bash
         configuration:
