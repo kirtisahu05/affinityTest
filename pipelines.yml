@@ -13,7 +13,8 @@ pipelines:
             image:
               auto:
                 language: java
-                versions: ver_1
+                versions:
+                 - ver_1
         requires:
           integrations:
             - docker_kirti
@@ -30,7 +31,8 @@ pipelines:
             image:
               auto:
                 language: java
-                versions: ver_2
+                versions:
+                 - ver_2
         requires:
           integrations:
             - docker_kirti
@@ -50,7 +52,8 @@ pipelines:
             image:
               auto:
                 language: java
-                versions: ver_3
+                versions:
+                 - ver_3
         requires:
           integrations:
             - docker_kirti
@@ -70,7 +73,8 @@ pipelines:
             image:
               auto:
                 language: java
-                versions: ver_4
+                versions:
+                 - ver_4
         requires:
           integrations:
             - docker_kirti
@@ -90,7 +94,8 @@ pipelines:
             image:
               auto:
                 language: java
-                versions: ver_5
+                versions:
+                 - ver_5
             custom:
               name: test
               tag:  test
