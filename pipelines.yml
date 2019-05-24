@@ -96,10 +96,6 @@ pipelines:
                 language: java
                 versions:
                  - ver_5
-            custom:
-              name: test
-              tag:  test
-              options: test
         requires:
           integrations:
             - docker_kirti
